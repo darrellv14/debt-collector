@@ -91,7 +91,7 @@ export default async function handler(request, response) {
     message += `━━━━━━━━━━━━━━━━━━━━\n`;
     message += `Mohon segera transfer ya! Cek detailnya di sini:\n`;
     message += `🔗 https://docs.google.com/spreadsheets/d/${SHEET_ID}/edit#gid=${GID_TAGIHAN}\n`;
-    message += `\n_Automated Message by Moocuan Bot_ 🤖`;
+    message += `\n_Automated Message by Moocuan Bot_ 🤖 created by Delvin`;
 
     // 4. Kirim ke Fonnte
     const fonnteResponse = await fetch("https://api.fonnte.com/send", {
